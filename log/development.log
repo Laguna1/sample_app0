@@ -244,3 +244,13 @@ Processing by StaticPagesController#help as HTML
 Completed 200 OK in 14ms (Views: 12.7ms | Allocations: 4483)
 
 
+Started GET "/" for 127.0.0.1 at 2021-04-09 01:55:58 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 126)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 3181)
+Completed 200 OK in 8ms (Views: 7.3ms | Allocations: 3801)
+
+
