@@ -1,0 +1,630 @@
+Started GET "/" for ::1 at 2021-04-09 18:17:28 +0300
+  [1m[35m (92.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 34.5ms | Allocations: 239)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 396.1ms | Allocations: 5396)
+Completed 200 OK in 529ms (Views: 423.8ms | ActiveRecord: 0.0ms | Allocations: 7932)
+
+
+Started GET "/contacts" for ::1 at 2021-04-09 18:17:43 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/contacts"):
+  
+Started GET "/static_pages/contacts" for ::1 at 2021-04-09 18:18:01 +0300
+Processing by StaticPagesController#contacts as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contacts.html.erb within layouts/application
+  Rendered static_pages/contacts.html.erb within layouts/application (Duration: 24.1ms | Allocations: 126)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 29.8ms | Allocations: 3202)
+Completed 200 OK in 32ms (Views: 30.6ms | ActiveRecord: 0.0ms | Allocations: 3710)
+
+
+Started GET "/" for ::1 at 2021-04-09 18:20:04 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 3108)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 3482)
+
+
+Started GET "/" for ::1 at 2021-04-09 18:22:50 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 79.7ms | Allocations: 123)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 251.0ms | Allocations: 3495)
+Completed 200 OK in 255ms (Views: 253.3ms | ActiveRecord: 0.0ms | Allocations: 4586)
+
+
+Started GET "/" for ::1 at 2021-04-09 18:24:02 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 123)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 3491)
+Completed 200 OK in 14ms (Views: 12.2ms | Allocations: 4577)
+
+
+Started GET "/" for ::1 at 2021-04-09 18:28:05 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 127.8ms | Allocations: 4212)
+  Rendered layout layouts/application.html.erb (Duration: 128.2ms | Allocations: 4276)
+Completed 500 Internal Server Error in 131ms (Allocations: 5340)
+
+
+  
+ActionView::Template::Error (The asset "rails.png" is not present in the asset pipeline.
+):
+    11:   <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+    12: </div>
+    13: 
+    14: <%= link_to image_tag("rails.png", alt: "Rails logo"),
+    15:             'http://rubyonrails.org/' %>
+  
+app/views/static_pages/home.html.erb:14
+Started GET "/" for ::1 at 2021-04-09 18:38:49 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 5398.9ms | Allocations: 7397)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5576.0ms | Allocations: 10694)
+Completed 200 OK in 5611ms (Views: 5576.6ms | Allocations: 11072)
+
+
+Started GET "/" for ::1 at 2021-04-09 18:39:45 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.7ms | Allocations: 724)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 4016)
+Completed 200 OK in 63ms (Views: 60.9ms | Allocations: 5109)
+
+
+Started GET "/" for ::1 at 2021-04-09 18:40:52 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1137)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1202)
+Completed 500 Internal Server Error in 4ms (Allocations: 2267)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check   <%# <% provide(:title, "Home") %> %>
+<div class="center jumbotron">
+  <h1>Welcome to the Sample App</h1>
+
+  <h2>
+    This is the home page for the
+    <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    sample application.
+  </h2>
+
+  <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails-logo.svg", alt: "Rails logo" class: "w-25 h-25"),
+            'http://rubyonrails.org/' %>
+):
+1:      <%# <% provide(:title, "Home") %> %>
+2:    <div class="center jumbotron">
+3:      <h1>Welcome to the Sample App</h1>
+4:    
+5:      <h2>
+6:        This is the home page for the
+7:        <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+8:        sample application.
+9:      </h2>
+10:    
+11:      <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+12:    </div>
+13:    
+14:    <%= link_to image_tag("rails-logo.svg", alt: "Rails logo" class: "w-25 h-25"),
+15:                'http://rubyonrails.org/' %>
+  
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+Started GET "/" for ::1 at 2021-04-09 18:41:41 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1134)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 1199)
+Completed 500 Internal Server Error in 5ms (Allocations: 2264)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check   <%# <% provide(:title, "Home") %> %>
+<div class="center jumbotron">
+  <h1>Welcome to the Sample App</h1>
+
+  <h2>
+    This is the home page for the
+    <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    sample application.
+  </h2>
+
+  <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails logo" class: ""),
+            'http://rubyonrails.org/' %>
+):
+1:      <%# <% provide(:title, "Home") %> %>
+2:    <div class="center jumbotron">
+3:      <h1>Welcome to the Sample App</h1>
+4:    
+5:      <h2>
+6:        This is the home page for the
+7:        <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+8:        sample application.
+9:      </h2>
+10:    
+11:      <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+12:    </div>
+13:    
+14:    <%= link_to image_tag("rails.png", alt: "Rails logo" class: ""),
+15:                'http://rubyonrails.org/' %>
+  
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+Started GET "/contacts" for ::1 at 2021-04-09 18:41:49 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/contacts"):
+  
+Started GET "/" for ::1 at 2021-04-09 18:41:54 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1124)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 1189)
+Completed 500 Internal Server Error in 3ms (Allocations: 1536)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check   <%# <% provide(:title, "Home") %> %>
+<div class="center jumbotron">
+  <h1>Welcome to the Sample App</h1>
+
+  <h2>
+    This is the home page for the
+    <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    sample application.
+  </h2>
+
+  <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails logo" class: ""),
+            'http://rubyonrails.org/' %>
+):
+1:      <%# <% provide(:title, "Home") %> %>
+2:    <div class="center jumbotron">
+3:      <h1>Welcome to the Sample App</h1>
+4:    
+5:      <h2>
+6:        This is the home page for the
+7:        <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+8:        sample application.
+9:      </h2>
+10:    
+11:      <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+12:    </div>
+13:    
+14:    <%= link_to image_tag("rails.png", alt: "Rails logo" class: ""),
+15:                'http://rubyonrails.org/' %>
+  
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+Started GET "/" for ::1 at 2021-04-09 18:42:14 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.3ms | Allocations: 730)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 4022)
+Completed 200 OK in 16ms (Views: 14.2ms | Allocations: 5115)
+
+
+Started GET "/" for ::1 at 2021-04-09 18:50:03 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 183.8ms | Allocations: 857)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 360.0ms | Allocations: 3880)
+Completed 200 OK in 396ms (Views: 360.8ms | Allocations: 4254)
+
+
+Started GET "/" for ::1 at 2021-04-09 18:50:09 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.0ms | Allocations: 589)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 3612)
+Completed 200 OK in 11ms (Views: 10.5ms | Allocations: 3985)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:24:24 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 143.6ms | Allocations: 722)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/oksana/sample_app/public/packs
+[Webpacker] Hash: d7ba220e95cd4259aeed
+Version: webpack 4.46.0
+Time: 25190ms
+Built at: 04/09/2021 7:25:09 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-d0a7a51ddc5dc283af66.js   1.31 MiB  application  [emitted] [immutable]  application
+js/application-d0a7a51ddc5dc283af66.js.map   1.45 MiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-d0a7a51ddc5dc283af66.js js/application-d0a7a51ddc5dc283af66.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 696 bytes {application} [built]
+[./app/javascript/stylesheets/application.scss] 664 bytes {application} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./app/javascript/stylesheets/application.scss] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/sass-loader/dist/cjs.js??ref--6-3!./app/javascript/stylesheets/application.scss 669 KiB {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 8 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 44222.8ms | Allocations: 5476)
+Completed 200 OK in 44402ms (Views: 44344.8ms | Allocations: 6563)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:26:00 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.2ms | Allocations: 717)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.1ms | Allocations: 4039)
+Completed 200 OK in 30ms (Views: 28.6ms | Allocations: 5125)
+
+
+Started GET "/static_pages/contacts" for ::1 at 2021-04-09 19:26:52 +0300
+Processing by StaticPagesController#contacts as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contacts.html.erb within layouts/application
+  Rendered static_pages/contacts.html.erb within layouts/application (Duration: 38.1ms | Allocations: 124)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.7ms | Allocations: 3268)
+Completed 200 OK in 46ms (Views: 44.5ms | Allocations: 3769)
+
+
+Started GET "/static_pages/contacts" for ::1 at 2021-04-09 19:27:35 +0300
+Processing by StaticPagesController#contacts as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contacts.html.erb within layouts/application
+  Rendered static_pages/contacts.html.erb within layouts/application (Duration: 0.9ms | Allocations: 124)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 3544)
+Completed 200 OK in 14ms (Views: 11.8ms | Allocations: 4630)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:28:00 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.7ms | Allocations: 705)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 3750)
+Completed 200 OK in 14ms (Views: 12.6ms | Allocations: 4250)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:28:35 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 705)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 4028)
+Completed 200 OK in 17ms (Views: 14.5ms | Allocations: 5114)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:29:11 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.3ms | Allocations: 705)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 62.9ms | Allocations: 4031)
+Completed 200 OK in 67ms (Views: 65.3ms | Allocations: 5117)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:29:34 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.5ms | Allocations: 714)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 1989)
+Completed 500 Internal Server Error in 11ms (Allocations: 3054)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check 
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= full_title(yield(:title)) %></title>
+    <%= stylesheet_link_tag    'application', media: 'all',
+                                              'data-turbolinks-track' => true %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  </head>
+    <%= csrf_meta_tags %>
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+      </script>
+    <![endif]-->
+  </head>
+  <body>
+    <header class="navbar navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <%= link_to "sample app", '#', id: "logo" class="h4"%>
+        <nav>
+          <ul class="nav navbar-nav navbar-right d-flex flex-row">
+            <li class="mx-2"><%= link_to "Home",   '#' %></li>
+            <li class="mx-2"><%= link_to "Help",   '#' %></li>
+            <li class="mx-2"><%= link_to "Log in", '#' %></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="container">
+      <%= yield %>
+    </div>
+  </body>
+</html>
+
+):
+1:    
+2:    <!DOCTYPE html>
+3:    <html>
+4:      <head>
+5:        <title><%= full_title(yield(:title)) %></title>
+6:        <%= stylesheet_link_tag    'application', media: 'all',
+7:                                                  'data-turbolinks-track' => true %>
+8:        <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+9:        <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+10:      </head>
+11:        <%= csrf_meta_tags %>
+12:        <!--[if lt IE 9]>
+13:          <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+14:          </script>
+15:        <![endif]-->
+16:      </head>
+17:      <body>
+18:        <header class="navbar navbar-fixed-top navbar-inverse">
+19:          <div class="container">
+20:            <%= link_to "sample app", '#', id: "logo" class="h4"%>
+21:            <nav>
+22:              <ul class="nav navbar-nav navbar-right d-flex flex-row">
+23:                <li class="mx-2"><%= link_to "Home",   '#' %></li>
+24:                <li class="mx-2"><%= link_to "Help",   '#' %></li>
+25:                <li class="mx-2"><%= link_to "Log in", '#' %></li>
+26:              </ul>
+27:            </nav>
+28:          </div>
+29:        </header>
+30:        <div class="container">
+31:          <%= yield %>
+32:        </div>
+33:      </body>
+34:    </html>
+  
+app/views/layouts/application.html.erb:20: syntax error, unexpected `class', expecting ')'
+app/views/layouts/application.html.erb:20: syntax error, unexpected `class', expecting ')'
+app/views/layouts/application.html.erb:20: syntax error, unexpected `class', expecting ')'
+app/views/layouts/application.html.erb:20: syntax error, unexpected `class', expecting ')'
+app/views/layouts/application.html.erb:20: syntax error, unexpected `class', expecting ')'
+app/views/layouts/application.html.erb:20: syntax error, unexpected `class', expecting ')'
+Started GET "/" for ::1 at 2021-04-09 19:30:03 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.1ms | Allocations: 709)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 1984)
+Completed 500 Internal Server Error in 8ms (Allocations: 3049)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check 
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= full_title(yield(:title)) %></title>
+    <%= stylesheet_link_tag    'application', media: 'all',
+                                              'data-turbolinks-track' => true %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  </head>
+    <%= csrf_meta_tags %>
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+      </script>
+    <![endif]-->
+  </head>
+  <body>
+    <header class="navbar navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <%= link_to "sample app", '#', id: "logo" class: "h4"%>
+        <nav>
+          <ul class="nav navbar-nav navbar-right d-flex flex-row">
+            <li class="mx-2"><%= link_to "Home",   '#' %></li>
+            <li class="mx-2"><%= link_to "Help",   '#' %></li>
+            <li class="mx-2"><%= link_to "Log in", '#' %></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="container">
+      <%= yield %>
+    </div>
+  </body>
+</html>
+
+):
+1:    
+2:    <!DOCTYPE html>
+3:    <html>
+4:      <head>
+5:        <title><%= full_title(yield(:title)) %></title>
+6:        <%= stylesheet_link_tag    'application', media: 'all',
+7:                                                  'data-turbolinks-track' => true %>
+8:        <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+9:        <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+10:      </head>
+11:        <%= csrf_meta_tags %>
+12:        <!--[if lt IE 9]>
+13:          <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+14:          </script>
+15:        <![endif]-->
+16:      </head>
+17:      <body>
+18:        <header class="navbar navbar-fixed-top navbar-inverse">
+19:          <div class="container">
+20:            <%= link_to "sample app", '#', id: "logo" class: "h4"%>
+21:            <nav>
+22:              <ul class="nav navbar-nav navbar-right d-flex flex-row">
+23:                <li class="mx-2"><%= link_to "Home",   '#' %></li>
+24:                <li class="mx-2"><%= link_to "Help",   '#' %></li>
+25:                <li class="mx-2"><%= link_to "Log in", '#' %></li>
+26:              </ul>
+27:            </nav>
+28:          </div>
+29:        </header>
+30:        <div class="container">
+31:          <%= yield %>
+32:        </div>
+33:      </body>
+34:    </html>
+  
+app/views/layouts/application.html.erb:20: syntax error, unexpected `class', expecting ')'
+app/views/layouts/application.html.erb:20: syntax error, unexpected `class', expecting ')'
+app/views/layouts/application.html.erb:20: syntax error, unexpected `class', expecting ')'
+app/views/layouts/application.html.erb:20: syntax error, unexpected `class', expecting ')'
+app/views/layouts/application.html.erb:20: syntax error, unexpected `class', expecting ')'
+app/views/layouts/application.html.erb:20: syntax error, unexpected `class', expecting ')'
+Started GET "/" for ::1 at 2021-04-09 19:30:32 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.3ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 4052)
+Completed 200 OK in 17ms (Views: 10.9ms | Allocations: 5143)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:30:46 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.9ms | Allocations: 705)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 4037)
+Completed 200 OK in 15ms (Views: 13.5ms | Allocations: 5131)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:35:24 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.1ms | Allocations: 589)
+  Rendered layout layouts/application.html.erb (Duration: 747.0ms | Allocations: 5976)
+Completed 500 Internal Server Error in 749ms (Allocations: 6323)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: bootstrap-sprockets.
+        on line 1:1 of app/assets/stylesheets/custom.css.scss
+>> @import "bootstrap-sprockets";
+
+   ^
+):
+    3: <html>
+    4:   <head>
+    5:     <title><%= full_title(yield(:title)) %></title>
+    6:     <%= stylesheet_link_tag    'application', media: 'all',
+    7:                                               'data-turbolinks-track' => true %>
+    8:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  
+app/assets/stylesheets/custom.css.scss:1
+app/views/layouts/application.html.erb:6
+Started GET "/" for ::1 at 2021-04-09 19:37:50 +0300
+  [1m[35m (17.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 6732.4ms | Allocations: 62872)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6858.8ms | Allocations: 77663)
+Completed 200 OK in 6970ms (Views: 6865.6ms | ActiveRecord: 0.0ms | Allocations: 80257)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:39:02 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.9ms | Allocations: 724)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.1ms | Allocations: 7983)
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.0ms | Allocations: 9081)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:39:11 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 610)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.6ms | Allocations: 8148)
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.0ms | Allocations: 8529)
+
+
