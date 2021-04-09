@@ -1062,3 +1062,159 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 588ms (Views: 587.4ms | Allocations: 62935)
 
 
+Started GET "/" for ::1 at 2021-04-09 22:02:06 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 615)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 77)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 500.1ms | Allocations: 61650)
+Completed 200 OK in 502ms (Views: 500.7ms | Allocations: 62023)
+
+
+Started GET "/" for ::1 at 2021-04-09 22:03:00 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.6ms | Allocations: 616)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 77)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 365.2ms | Allocations: 61684)
+Completed 200 OK in 368ms (Views: 366.1ms | Allocations: 62057)
+
+
+Started GET "/" for ::1 at 2021-04-09 22:03:54 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.0ms | Allocations: 615)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 77)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 313.9ms | Allocations: 62197)
+Completed 200 OK in 315ms (Views: 314.4ms | Allocations: 62571)
+
+
+Started GET "/" for ::1 at 2021-04-09 22:05:35 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.5ms | Allocations: 615)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 77)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 368.9ms | Allocations: 62631)
+Completed 200 OK in 371ms (Views: 369.7ms | Allocations: 63004)
+
+
+Started GET "/" for ::1 at 2021-04-09 22:06:58 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 615)
+  Rendered layout layouts/application.html.erb (Duration: 2040.1ms | Allocations: 37180)
+Completed 500 Internal Server Error in 2042ms (Allocations: 37532)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$light-gray".
+        on line 85:10 of app/assets/stylesheets/custom.css.scss
+>>   color: $light-gray;
+
+   ---------^
+):
+    3: <html>
+    4:   <head>
+    5:     <title><%= full_title(yield(:title)) %></title>
+    6:     <%= stylesheet_link_tag    'application', media: 'all',
+    7:                                               'data-turbolinks-track' => true %>
+    8:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  
+app/assets/stylesheets/custom.css.scss:85
+app/views/layouts/application.html.erb:6
+Started GET "/" for ::1 at 2021-04-09 22:08:08 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.3ms | Allocations: 618)
+  Rendered layout layouts/application.html.erb (Duration: 190.1ms | Allocations: 34836)
+Completed 500 Internal Server Error in 192ms (Allocations: 35184)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$light-gray".
+        on line 85:10 of app/assets/stylesheets/custom.css.scss
+>>   color: $light-gray;
+
+   ---------^
+):
+    3: <html>
+    4:   <head>
+    5:     <title><%= full_title(yield(:title)) %></title>
+    6:     <%= stylesheet_link_tag    'application', media: 'all',
+    7:                                               'data-turbolinks-track' => true %>
+    8:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  
+app/assets/stylesheets/custom.css.scss:85
+app/views/layouts/application.html.erb:6
+Started GET "/" for ::1 at 2021-04-09 22:09:29 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.6ms | Allocations: 616)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 77)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 301.5ms | Allocations: 61683)
+Completed 200 OK in 303ms (Views: 302.2ms | Allocations: 62056)
+
+
+Started GET "/" for ::1 at 2021-04-09 22:11:00 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.6ms | Allocations: 613)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 77)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 298.2ms | Allocations: 61313)
+Completed 200 OK in 300ms (Views: 298.7ms | Allocations: 61686)
+
+
+Started GET "/" for ::1 at 2021-04-09 22:11:50 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 616)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 77)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 327.0ms | Allocations: 61282)
+Completed 200 OK in 329ms (Views: 328.0ms | Allocations: 61655)
+
+
+Started GET "/" for ::1 at 2021-04-09 22:12:19 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 613)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 77)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 364.8ms | Allocations: 61763)
+Completed 200 OK in 367ms (Views: 365.5ms | Allocations: 62136)
+
+
