@@ -1867,3 +1867,16 @@ Processing by StaticPagesController#about as HTML
 Completed 200 OK in 30ms (Views: 28.2ms | Allocations: 8594)
 
 
+Started GET "/" for ::1 at 2021-04-09 23:35:13 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2269.9ms | Allocations: 627)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 34.8ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 100.0ms | Allocations: 112)
+  Rendered layouts/_footer.html.erb (Duration: 21.3ms | Allocations: 72)
+  Rendered layout layouts/application.html.erb (Duration: 4757.1ms | Allocations: 7815)
+Completed 200 OK in 7281ms (Views: 5595.9ms | Allocations: 8315)
+
+
