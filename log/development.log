@@ -1,0 +1,1960 @@
+Started GET "/" for ::1 at 2021-04-09 18:17:28 +0300
+  [1m[35m (92.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 34.5ms | Allocations: 239)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 396.1ms | Allocations: 5396)
+Completed 200 OK in 529ms (Views: 423.8ms | ActiveRecord: 0.0ms | Allocations: 7932)
+
+
+Started GET "/contacts" for ::1 at 2021-04-09 18:17:43 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/contacts"):
+  
+Started GET "/static_pages/contacts" for ::1 at 2021-04-09 18:18:01 +0300
+Processing by StaticPagesController#contacts as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contacts.html.erb within layouts/application
+  Rendered static_pages/contacts.html.erb within layouts/application (Duration: 24.1ms | Allocations: 126)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 29.8ms | Allocations: 3202)
+Completed 200 OK in 32ms (Views: 30.6ms | ActiveRecord: 0.0ms | Allocations: 3710)
+
+
+Started GET "/" for ::1 at 2021-04-09 18:20:04 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 3108)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 3482)
+
+
+Started GET "/" for ::1 at 2021-04-09 18:22:50 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 79.7ms | Allocations: 123)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 251.0ms | Allocations: 3495)
+Completed 200 OK in 255ms (Views: 253.3ms | ActiveRecord: 0.0ms | Allocations: 4586)
+
+
+Started GET "/" for ::1 at 2021-04-09 18:24:02 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 123)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 3491)
+Completed 200 OK in 14ms (Views: 12.2ms | Allocations: 4577)
+
+
+Started GET "/" for ::1 at 2021-04-09 18:28:05 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 127.8ms | Allocations: 4212)
+  Rendered layout layouts/application.html.erb (Duration: 128.2ms | Allocations: 4276)
+Completed 500 Internal Server Error in 131ms (Allocations: 5340)
+
+
+  
+ActionView::Template::Error (The asset "rails.png" is not present in the asset pipeline.
+):
+    11:   <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+    12: </div>
+    13: 
+    14: <%= link_to image_tag("rails.png", alt: "Rails logo"),
+    15:             'http://rubyonrails.org/' %>
+  
+app/views/static_pages/home.html.erb:14
+Started GET "/" for ::1 at 2021-04-09 18:38:49 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 5398.9ms | Allocations: 7397)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5576.0ms | Allocations: 10694)
+Completed 200 OK in 5611ms (Views: 5576.6ms | Allocations: 11072)
+
+
+Started GET "/" for ::1 at 2021-04-09 18:39:45 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.7ms | Allocations: 724)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 4016)
+Completed 200 OK in 63ms (Views: 60.9ms | Allocations: 5109)
+
+
+Started GET "/" for ::1 at 2021-04-09 18:40:52 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1137)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1202)
+Completed 500 Internal Server Error in 4ms (Allocations: 2267)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check   <%# <% provide(:title, "Home") %> %>
+<div class="center jumbotron">
+  <h1>Welcome to the Sample App</h1>
+
+  <h2>
+    This is the home page for the
+    <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    sample application.
+  </h2>
+
+  <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails-logo.svg", alt: "Rails logo" class: "w-25 h-25"),
+            'http://rubyonrails.org/' %>
+):
+1:      <%# <% provide(:title, "Home") %> %>
+2:    <div class="center jumbotron">
+3:      <h1>Welcome to the Sample App</h1>
+4:    
+5:      <h2>
+6:        This is the home page for the
+7:        <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+8:        sample application.
+9:      </h2>
+10:    
+11:      <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+12:    </div>
+13:    
+14:    <%= link_to image_tag("rails-logo.svg", alt: "Rails logo" class: "w-25 h-25"),
+15:                'http://rubyonrails.org/' %>
+  
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+Started GET "/" for ::1 at 2021-04-09 18:41:41 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1134)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 1199)
+Completed 500 Internal Server Error in 5ms (Allocations: 2264)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check   <%# <% provide(:title, "Home") %> %>
+<div class="center jumbotron">
+  <h1>Welcome to the Sample App</h1>
+
+  <h2>
+    This is the home page for the
+    <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    sample application.
+  </h2>
+
+  <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails logo" class: ""),
+            'http://rubyonrails.org/' %>
+):
+1:      <%# <% provide(:title, "Home") %> %>
+2:    <div class="center jumbotron">
+3:      <h1>Welcome to the Sample App</h1>
+4:    
+5:      <h2>
+6:        This is the home page for the
+7:        <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+8:        sample application.
+9:      </h2>
+10:    
+11:      <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+12:    </div>
+13:    
+14:    <%= link_to image_tag("rails.png", alt: "Rails logo" class: ""),
+15:                'http://rubyonrails.org/' %>
+  
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+Started GET "/contacts" for ::1 at 2021-04-09 18:41:49 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/contacts"):
+  
+Started GET "/" for ::1 at 2021-04-09 18:41:54 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1124)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 1189)
+Completed 500 Internal Server Error in 3ms (Allocations: 1536)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check   <%# <% provide(:title, "Home") %> %>
+<div class="center jumbotron">
+  <h1>Welcome to the Sample App</h1>
+
+  <h2>
+    This is the home page for the
+    <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    sample application.
+  </h2>
+
+  <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails logo" class: ""),
+            'http://rubyonrails.org/' %>
+):
+1:      <%# <% provide(:title, "Home") %> %>
+2:    <div class="center jumbotron">
+3:      <h1>Welcome to the Sample App</h1>
+4:    
+5:      <h2>
+6:        This is the home page for the
+7:        <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+8:        sample application.
+9:      </h2>
+10:    
+11:      <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+12:    </div>
+13:    
+14:    <%= link_to image_tag("rails.png", alt: "Rails logo" class: ""),
+15:                'http://rubyonrails.org/' %>
+  
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected `class', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+Started GET "/" for ::1 at 2021-04-09 18:42:14 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.3ms | Allocations: 730)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 4022)
+Completed 200 OK in 16ms (Views: 14.2ms | Allocations: 5115)
+
+
+Started GET "/" for ::1 at 2021-04-09 18:50:03 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 183.8ms | Allocations: 857)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 360.0ms | Allocations: 3880)
+Completed 200 OK in 396ms (Views: 360.8ms | Allocations: 4254)
+
+
+Started GET "/" for ::1 at 2021-04-09 18:50:09 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.0ms | Allocations: 589)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 3612)
+Completed 200 OK in 11ms (Views: 10.5ms | Allocations: 3985)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:24:24 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 143.6ms | Allocations: 722)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/oksana/sample_app/public/packs
+[Webpacker] Hash: d7ba220e95cd4259aeed
+Version: webpack 4.46.0
+Time: 25190ms
+Built at: 04/09/2021 7:25:09 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-d0a7a51ddc5dc283af66.js   1.31 MiB  application  [emitted] [immutable]  application
+js/application-d0a7a51ddc5dc283af66.js.map   1.45 MiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-d0a7a51ddc5dc283af66.js js/application-d0a7a51ddc5dc283af66.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 696 bytes {application} [built]
+[./app/javascript/stylesheets/application.scss] 664 bytes {application} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./app/javascript/stylesheets/application.scss] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/sass-loader/dist/cjs.js??ref--6-3!./app/javascript/stylesheets/application.scss 669 KiB {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 8 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 44222.8ms | Allocations: 5476)
+Completed 200 OK in 44402ms (Views: 44344.8ms | Allocations: 6563)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:26:00 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.2ms | Allocations: 717)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.1ms | Allocations: 4039)
+Completed 200 OK in 30ms (Views: 28.6ms | Allocations: 5125)
+
+
+Started GET "/static_pages/contacts" for ::1 at 2021-04-09 19:26:52 +0300
+Processing by StaticPagesController#contacts as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contacts.html.erb within layouts/application
+  Rendered static_pages/contacts.html.erb within layouts/application (Duration: 38.1ms | Allocations: 124)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.7ms | Allocations: 3268)
+Completed 200 OK in 46ms (Views: 44.5ms | Allocations: 3769)
+
+
+Started GET "/static_pages/contacts" for ::1 at 2021-04-09 19:27:35 +0300
+Processing by StaticPagesController#contacts as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contacts.html.erb within layouts/application
+  Rendered static_pages/contacts.html.erb within layouts/application (Duration: 0.9ms | Allocations: 124)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 3544)
+Completed 200 OK in 14ms (Views: 11.8ms | Allocations: 4630)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:28:00 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.7ms | Allocations: 705)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 3750)
+Completed 200 OK in 14ms (Views: 12.6ms | Allocations: 4250)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:28:35 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 705)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 4028)
+Completed 200 OK in 17ms (Views: 14.5ms | Allocations: 5114)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:29:11 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.3ms | Allocations: 705)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 62.9ms | Allocations: 4031)
+Completed 200 OK in 67ms (Views: 65.3ms | Allocations: 5117)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:29:34 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.5ms | Allocations: 714)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 1989)
+Completed 500 Internal Server Error in 11ms (Allocations: 3054)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check 
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= full_title(yield(:title)) %></title>
+    <%= stylesheet_link_tag    'application', media: 'all',
+                                              'data-turbolinks-track' => true %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  </head>
+    <%= csrf_meta_tags %>
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+      </script>
+    <![endif]-->
+  </head>
+  <body>
+    <header class="navbar navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <%= link_to "sample app", '#', id: "logo" class="h4"%>
+        <nav>
+          <ul class="nav navbar-nav navbar-right d-flex flex-row">
+            <li class="mx-2"><%= link_to "Home",   '#' %></li>
+            <li class="mx-2"><%= link_to "Help",   '#' %></li>
+            <li class="mx-2"><%= link_to "Log in", '#' %></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="container">
+      <%= yield %>
+    </div>
+  </body>
+</html>
+
+):
+1:    
+2:    <!DOCTYPE html>
+3:    <html>
+4:      <head>
+5:        <title><%= full_title(yield(:title)) %></title>
+6:        <%= stylesheet_link_tag    'application', media: 'all',
+7:                                                  'data-turbolinks-track' => true %>
+8:        <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+9:        <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+10:      </head>
+11:        <%= csrf_meta_tags %>
+12:        <!--[if lt IE 9]>
+13:          <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+14:          </script>
+15:        <![endif]-->
+16:      </head>
+17:      <body>
+18:        <header class="navbar navbar-fixed-top navbar-inverse">
+19:          <div class="container">
+20:            <%= link_to "sample app", '#', id: "logo" class="h4"%>
+21:            <nav>
+22:              <ul class="nav navbar-nav navbar-right d-flex flex-row">
+23:                <li class="mx-2"><%= link_to "Home",   '#' %></li>
+24:                <li class="mx-2"><%= link_to "Help",   '#' %></li>
+25:                <li class="mx-2"><%= link_to "Log in", '#' %></li>
+26:              </ul>
+27:            </nav>
+28:          </div>
+29:        </header>
+30:        <div class="container">
+31:          <%= yield %>
+32:        </div>
+33:      </body>
+34:    </html>
+  
+app/views/layouts/application.html.erb:20: syntax error, unexpected `class', expecting ')'
+app/views/layouts/application.html.erb:20: syntax error, unexpected `class', expecting ')'
+app/views/layouts/application.html.erb:20: syntax error, unexpected `class', expecting ')'
+app/views/layouts/application.html.erb:20: syntax error, unexpected `class', expecting ')'
+app/views/layouts/application.html.erb:20: syntax error, unexpected `class', expecting ')'
+app/views/layouts/application.html.erb:20: syntax error, unexpected `class', expecting ')'
+Started GET "/" for ::1 at 2021-04-09 19:30:03 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.1ms | Allocations: 709)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 1984)
+Completed 500 Internal Server Error in 8ms (Allocations: 3049)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check 
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= full_title(yield(:title)) %></title>
+    <%= stylesheet_link_tag    'application', media: 'all',
+                                              'data-turbolinks-track' => true %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  </head>
+    <%= csrf_meta_tags %>
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+      </script>
+    <![endif]-->
+  </head>
+  <body>
+    <header class="navbar navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <%= link_to "sample app", '#', id: "logo" class: "h4"%>
+        <nav>
+          <ul class="nav navbar-nav navbar-right d-flex flex-row">
+            <li class="mx-2"><%= link_to "Home",   '#' %></li>
+            <li class="mx-2"><%= link_to "Help",   '#' %></li>
+            <li class="mx-2"><%= link_to "Log in", '#' %></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="container">
+      <%= yield %>
+    </div>
+  </body>
+</html>
+
+):
+1:    
+2:    <!DOCTYPE html>
+3:    <html>
+4:      <head>
+5:        <title><%= full_title(yield(:title)) %></title>
+6:        <%= stylesheet_link_tag    'application', media: 'all',
+7:                                                  'data-turbolinks-track' => true %>
+8:        <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+9:        <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+10:      </head>
+11:        <%= csrf_meta_tags %>
+12:        <!--[if lt IE 9]>
+13:          <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+14:          </script>
+15:        <![endif]-->
+16:      </head>
+17:      <body>
+18:        <header class="navbar navbar-fixed-top navbar-inverse">
+19:          <div class="container">
+20:            <%= link_to "sample app", '#', id: "logo" class: "h4"%>
+21:            <nav>
+22:              <ul class="nav navbar-nav navbar-right d-flex flex-row">
+23:                <li class="mx-2"><%= link_to "Home",   '#' %></li>
+24:                <li class="mx-2"><%= link_to "Help",   '#' %></li>
+25:                <li class="mx-2"><%= link_to "Log in", '#' %></li>
+26:              </ul>
+27:            </nav>
+28:          </div>
+29:        </header>
+30:        <div class="container">
+31:          <%= yield %>
+32:        </div>
+33:      </body>
+34:    </html>
+  
+app/views/layouts/application.html.erb:20: syntax error, unexpected `class', expecting ')'
+app/views/layouts/application.html.erb:20: syntax error, unexpected `class', expecting ')'
+app/views/layouts/application.html.erb:20: syntax error, unexpected `class', expecting ')'
+app/views/layouts/application.html.erb:20: syntax error, unexpected `class', expecting ')'
+app/views/layouts/application.html.erb:20: syntax error, unexpected `class', expecting ')'
+app/views/layouts/application.html.erb:20: syntax error, unexpected `class', expecting ')'
+Started GET "/" for ::1 at 2021-04-09 19:30:32 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.3ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 4052)
+Completed 200 OK in 17ms (Views: 10.9ms | Allocations: 5143)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:30:46 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.9ms | Allocations: 705)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 4037)
+Completed 200 OK in 15ms (Views: 13.5ms | Allocations: 5131)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:35:24 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.1ms | Allocations: 589)
+  Rendered layout layouts/application.html.erb (Duration: 747.0ms | Allocations: 5976)
+Completed 500 Internal Server Error in 749ms (Allocations: 6323)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: bootstrap-sprockets.
+        on line 1:1 of app/assets/stylesheets/custom.css.scss
+>> @import "bootstrap-sprockets";
+
+   ^
+):
+    3: <html>
+    4:   <head>
+    5:     <title><%= full_title(yield(:title)) %></title>
+    6:     <%= stylesheet_link_tag    'application', media: 'all',
+    7:                                               'data-turbolinks-track' => true %>
+    8:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  
+app/assets/stylesheets/custom.css.scss:1
+app/views/layouts/application.html.erb:6
+Started GET "/" for ::1 at 2021-04-09 19:37:50 +0300
+  [1m[35m (17.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 6732.4ms | Allocations: 62872)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6858.8ms | Allocations: 77663)
+Completed 200 OK in 6970ms (Views: 6865.6ms | ActiveRecord: 0.0ms | Allocations: 80257)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:39:02 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.9ms | Allocations: 724)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.1ms | Allocations: 7983)
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.0ms | Allocations: 9081)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:39:11 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 610)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.6ms | Allocations: 8148)
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.0ms | Allocations: 8529)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:41:22 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.5ms | Allocations: 608)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 402.8ms | Allocations: 56446)
+Completed 200 OK in 405ms (Views: 403.7ms | ActiveRecord: 0.0ms | Allocations: 56819)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:43:21 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 737)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 390.6ms | Allocations: 58836)
+Completed 200 OK in 397ms (Views: 394.7ms | ActiveRecord: 0.0ms | Allocations: 59929)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:44:05 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 615)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 405.4ms | Allocations: 60804)
+Completed 200 OK in 408ms (Views: 406.1ms | Allocations: 61178)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:44:39 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.6ms | Allocations: 615)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 385.0ms | Allocations: 62148)
+Completed 200 OK in 387ms (Views: 385.7ms | Allocations: 62521)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:45:26 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 615)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 365.6ms | Allocations: 61292)
+Completed 200 OK in 367ms (Views: 366.1ms | Allocations: 61665)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:45:46 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.9ms | Allocations: 615)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 401.1ms | Allocations: 60839)
+Completed 200 OK in 403ms (Views: 402.0ms | Allocations: 61212)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:45:58 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.4ms | Allocations: 616)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.4ms | Allocations: 7597)
+Completed 200 OK in 18ms (Views: 17.0ms | Allocations: 7970)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:49:27 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.5ms | Allocations: 613)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 337.3ms | Allocations: 60862)
+Completed 200 OK in 339ms (Views: 338.0ms | Allocations: 61240)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:51:16 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 615)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 353.2ms | Allocations: 60903)
+Completed 200 OK in 355ms (Views: 353.8ms | Allocations: 61276)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:51:45 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 738)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.4ms | Allocations: 7923)
+Completed 200 OK in 24ms (Views: 22.4ms | Allocations: 9014)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:52:41 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.7ms | Allocations: 731)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 7907)
+Completed 200 OK in 20ms (Views: 19.2ms | Allocations: 8993)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:53:30 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 613)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 296.8ms | Allocations: 60881)
+Completed 200 OK in 298ms (Views: 297.4ms | Allocations: 61255)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:53:49 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.1ms | Allocations: 615)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 355.3ms | Allocations: 62305)
+Completed 200 OK in 358ms (Views: 356.3ms | Allocations: 62678)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:54:00 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.8ms | Allocations: 615)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 361.9ms | Allocations: 61352)
+Completed 200 OK in 364ms (Views: 362.9ms | Allocations: 61725)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:54:16 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.5ms | Allocations: 613)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 340.7ms | Allocations: 61274)
+Completed 200 OK in 342ms (Views: 341.4ms | Allocations: 61647)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:54:28 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.4ms | Allocations: 615)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 344.1ms | Allocations: 60433)
+Completed 200 OK in 345ms (Views: 344.7ms | Allocations: 60806)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:54:42 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.5ms | Allocations: 615)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 375.6ms | Allocations: 62339)
+Completed 200 OK in 378ms (Views: 376.3ms | Allocations: 62712)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:54:54 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.5ms | Allocations: 615)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 331.8ms | Allocations: 61893)
+Completed 200 OK in 334ms (Views: 332.6ms | Allocations: 62266)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:55:04 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.0ms | Allocations: 615)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 345.5ms | Allocations: 60504)
+Completed 200 OK in 347ms (Views: 346.5ms | Allocations: 60877)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:55:36 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 616)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 339.7ms | Allocations: 61791)
+Completed 200 OK in 342ms (Views: 340.5ms | Allocations: 62164)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:55:49 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.1ms | Allocations: 615)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 408.1ms | Allocations: 60408)
+Completed 200 OK in 410ms (Views: 409.4ms | Allocations: 60786)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:56:10 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.6ms | Allocations: 615)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 314.7ms | Allocations: 61356)
+Completed 200 OK in 316ms (Views: 315.3ms | Allocations: 61729)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:56:19 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.0ms | Allocations: 613)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 333.0ms | Allocations: 60849)
+Completed 200 OK in 335ms (Views: 333.7ms | Allocations: 61222)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:56:27 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.5ms | Allocations: 615)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 376.4ms | Allocations: 60886)
+Completed 200 OK in 379ms (Views: 377.5ms | Allocations: 61259)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:56:35 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 613)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 405.9ms | Allocations: 60394)
+Completed 200 OK in 407ms (Views: 406.5ms | Allocations: 60767)
+
+
+Started GET "/" for ::1 at 2021-04-09 19:59:21 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.9ms | Allocations: 615)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 357.1ms | Allocations: 61297)
+Completed 200 OK in 359ms (Views: 357.9ms | Allocations: 61670)
+
+
+Started GET "/" for ::1 at 2021-04-09 20:25:01 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 358.9ms | Allocations: 744)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.5ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 1515.5ms | Allocations: 8353)
+Completed 200 OK in 1684ms (Views: 1636.3ms | Allocations: 9444)
+
+
+Started GET "/" for ::1 at 2021-04-09 20:26:47 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 732)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.5ms | Allocations: 105)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 17.4ms | Allocations: 8513)
+Completed 200 OK in 22ms (Views: 19.9ms | Allocations: 9601)
+
+
+Started GET "/" for ::1 at 2021-04-09 21:43:29 +0300
+  [1m[35m (95.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 13347.4ms | Allocations: 24212)
+Started GET "/" for ::1 at 2021-04-09 21:43:47 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.5ms | Allocations: 613)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 13.3ms | Allocations: 128)
+  Rendered layouts/_shim.html.erb (Duration: 13.3ms | Allocations: 164)
+  Rendered layouts/_header.html.erb (Duration: 12.7ms | Allocations: 267)
+  Rendered layouts/_header.html.erb (Duration: 13.1ms | Allocations: 326)
+  Rendered layout layouts/application.html.erb (Duration: 14385.8ms | Allocations: 42719)
+  Rendered layout layouts/application.html.erb (Duration: 1008.2ms | Allocations: 16257)
+Completed 200 OK in 14781ms (Views: 14570.6ms | ActiveRecord: 0.0ms | Allocations: 45345)
+
+
+Completed 200 OK in 1011ms (Views: 1009.8ms | ActiveRecord: 0.0ms | Allocations: 16724)
+
+
+Started GET "/" for ::1 at 2021-04-09 21:45:30 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 288.6ms | Allocations: 618)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 77)
+  Rendered layout layouts/application.html.erb (Duration: 1736.6ms | Allocations: 7782)
+Completed 200 OK in 1893ms (Views: 1737.2ms | ActiveRecord: 0.0ms | Allocations: 8163)
+
+
+Started GET "/" for ::1 at 2021-04-09 21:47:36 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 34.9ms | Allocations: 734)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 9.2ms | Allocations: 105)
+  Rendered layouts/_header.html.erb (Duration: 12.9ms | Allocations: 227)
+  Rendered layout layouts/application.html.erb (Duration: 200.5ms | Allocations: 8487)
+Completed 200 OK in 275ms (Views: 274.2ms | ActiveRecord: 0.0ms | Allocations: 9585)
+
+
+Started GET "/" for ::1 at 2021-04-09 21:49:04 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.6ms | Allocations: 731)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 105)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 228)
+  Rendered layout layouts/application.html.erb (Duration: 19.0ms | Allocations: 8476)
+Completed 200 OK in 23ms (Views: 21.1ms | ActiveRecord: 0.0ms | Allocations: 9564)
+
+
+Started GET "/" for ::1 at 2021-04-09 21:50:46 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.5ms | Allocations: 731)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 106)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 227)
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 8556)
+Completed 200 OK in 22ms (Views: 20.4ms | Allocations: 9642)
+
+
+Started GET "/" for ::1 at 2021-04-09 21:51:30 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.5ms | Allocations: 731)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 105)
+  Rendered layouts/_header.html.erb (Duration: 1.0ms | Allocations: 227)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 175)
+  Rendered layout layouts/application.html.erb (Duration: 20.9ms | Allocations: 8858)
+Completed 200 OK in 25ms (Views: 23.3ms | Allocations: 9950)
+
+
+Started GET "/" for ::1 at 2021-04-09 21:52:28 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 731)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 105)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 227)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 8847)
+Completed 200 OK in 25ms (Views: 22.7ms | Allocations: 9933)
+
+
+Started GET "/" for ::1 at 2021-04-09 21:53:41 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.6ms | Allocations: 613)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 77)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 3290.5ms | Allocations: 61465)
+Completed 200 OK in 3292ms (Views: 3291.0ms | Allocations: 61843)
+
+
+Started GET "/" for ::1 at 2021-04-09 21:54:28 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.5ms | Allocations: 616)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 77)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 506.7ms | Allocations: 61166)
+Completed 200 OK in 508ms (Views: 507.4ms | Allocations: 61539)
+
+
+Started GET "/" for ::1 at 2021-04-09 21:55:46 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.0ms | Allocations: 615)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 77)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 532.2ms | Allocations: 61690)
+Completed 200 OK in 534ms (Views: 533.1ms | Allocations: 62064)
+
+
+Started GET "/" for ::1 at 2021-04-09 21:57:31 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.9ms | Allocations: 616)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 77)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 586.7ms | Allocations: 62561)
+Completed 200 OK in 588ms (Views: 587.4ms | Allocations: 62935)
+
+
+Started GET "/" for ::1 at 2021-04-09 22:02:06 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 615)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 77)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 500.1ms | Allocations: 61650)
+Completed 200 OK in 502ms (Views: 500.7ms | Allocations: 62023)
+
+
+Started GET "/" for ::1 at 2021-04-09 22:03:00 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.6ms | Allocations: 616)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 77)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 365.2ms | Allocations: 61684)
+Completed 200 OK in 368ms (Views: 366.1ms | Allocations: 62057)
+
+
+Started GET "/" for ::1 at 2021-04-09 22:03:54 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.0ms | Allocations: 615)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 77)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 313.9ms | Allocations: 62197)
+Completed 200 OK in 315ms (Views: 314.4ms | Allocations: 62571)
+
+
+Started GET "/" for ::1 at 2021-04-09 22:05:35 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.5ms | Allocations: 615)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 77)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 368.9ms | Allocations: 62631)
+Completed 200 OK in 371ms (Views: 369.7ms | Allocations: 63004)
+
+
+Started GET "/" for ::1 at 2021-04-09 22:06:58 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 615)
+  Rendered layout layouts/application.html.erb (Duration: 2040.1ms | Allocations: 37180)
+Completed 500 Internal Server Error in 2042ms (Allocations: 37532)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$light-gray".
+        on line 85:10 of app/assets/stylesheets/custom.css.scss
+>>   color: $light-gray;
+
+   ---------^
+):
+    3: <html>
+    4:   <head>
+    5:     <title><%= full_title(yield(:title)) %></title>
+    6:     <%= stylesheet_link_tag    'application', media: 'all',
+    7:                                               'data-turbolinks-track' => true %>
+    8:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  
+app/assets/stylesheets/custom.css.scss:85
+app/views/layouts/application.html.erb:6
+Started GET "/" for ::1 at 2021-04-09 22:08:08 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.3ms | Allocations: 618)
+  Rendered layout layouts/application.html.erb (Duration: 190.1ms | Allocations: 34836)
+Completed 500 Internal Server Error in 192ms (Allocations: 35184)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$light-gray".
+        on line 85:10 of app/assets/stylesheets/custom.css.scss
+>>   color: $light-gray;
+
+   ---------^
+):
+    3: <html>
+    4:   <head>
+    5:     <title><%= full_title(yield(:title)) %></title>
+    6:     <%= stylesheet_link_tag    'application', media: 'all',
+    7:                                               'data-turbolinks-track' => true %>
+    8:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  
+app/assets/stylesheets/custom.css.scss:85
+app/views/layouts/application.html.erb:6
+Started GET "/" for ::1 at 2021-04-09 22:09:29 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.6ms | Allocations: 616)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 77)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 301.5ms | Allocations: 61683)
+Completed 200 OK in 303ms (Views: 302.2ms | Allocations: 62056)
+
+
+Started GET "/" for ::1 at 2021-04-09 22:11:00 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.6ms | Allocations: 613)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 77)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 298.2ms | Allocations: 61313)
+Completed 200 OK in 300ms (Views: 298.7ms | Allocations: 61686)
+
+
+Started GET "/" for ::1 at 2021-04-09 22:11:50 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 616)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 77)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 327.0ms | Allocations: 61282)
+Completed 200 OK in 329ms (Views: 328.0ms | Allocations: 61655)
+
+
+Started GET "/" for ::1 at 2021-04-09 22:12:19 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 613)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 77)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 364.8ms | Allocations: 61763)
+Completed 200 OK in 367ms (Views: 365.5ms | Allocations: 62136)
+
+
+Started GET "/" for ::1 at 2021-04-09 22:14:37 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.7ms | Allocations: 739)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.6ms | Allocations: 105)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 227)
+  Rendered layouts/_footer.html.erb (Duration: 33.7ms | Allocations: 4163)
+  Rendered layout layouts/application.html.erb (Duration: 55.6ms | Allocations: 12849)
+Completed 500 Internal Server Error in 60ms (Allocations: 13913)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `about_path' for #<ActionView::Base:0x0000000000b9c8>):
+     5:   </small>
+     6:   <nav>
+     7:     <ul>
+     8:       <li><%= link_to "About", about_path %></li>
+     9:       <li><%= link_to "Contacts", contact_path %></li>
+    10:       <li><a href="http://news.railstutorial.org/">News</a></li>
+    11:     </ul>
+  
+app/views/layouts/_footer.html.erb:8
+app/views/layouts/application.html.erb:18
+Started GET "/" for ::1 at 2021-04-09 22:17:18 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 7.4ms | Allocations: 736)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.4ms | Allocations: 105)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 227)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 198)
+  Rendered layout layouts/application.html.erb (Duration: 58.9ms | Allocations: 8881)
+Completed 200 OK in 62ms (Views: 60.9ms | Allocations: 9972)
+
+
+Started GET "/static_pages/about" for ::1 at 2021-04-09 22:17:21 +0300
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.7ms | Allocations: 129)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 75)
+  Rendered layout layouts/application.html.erb (Duration: 17.9ms | Allocations: 7416)
+Completed 200 OK in 20ms (Views: 18.9ms | Allocations: 7920)
+
+
+Started GET "/static_pages/about" for ::1 at 2021-04-09 22:17:32 +0300
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 77)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 71)
+  Rendered layout layouts/application.html.erb (Duration: 30.8ms | Allocations: 7981)
+Completed 200 OK in 33ms (Views: 31.7ms | Allocations: 8358)
+
+
+Started GET "/static_pages/about" for ::1 at 2021-04-09 22:18:03 +0300
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.8ms | Allocations: 126)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 105)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 227)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 195)
+  Rendered layout layouts/application.html.erb (Duration: 110.1ms | Allocations: 8377)
+Completed 200 OK in 213ms (Views: 210.5ms | Allocations: 9467)
+
+
+Started GET "/static_pages/contacts" for ::1 at 2021-04-09 22:18:06 +0300
+Processing by StaticPagesController#contacts as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contacts.html.erb within layouts/application
+  Rendered static_pages/contacts.html.erb within layouts/application (Duration: 37.5ms | Allocations: 778)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 78)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 51.0ms | Allocations: 8074)
+Completed 200 OK in 54ms (Views: 52.1ms | Allocations: 8578)
+
+
+Started GET "/static_pages/about" for ::1 at 2021-04-09 22:18:11 +0300
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 77)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 20.7ms | Allocations: 7325)
+Completed 200 OK in 23ms (Views: 21.7ms | Allocations: 7702)
+
+
+Started GET "/static_pages/about" for ::1 at 2021-04-09 22:18:15 +0300
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 77)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 7325)
+Completed 200 OK in 19ms (Views: 18.6ms | Allocations: 7701)
+
+
+Started GET "/static_pages/about" for ::1 at 2021-04-09 22:18:52 +0300
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.7ms | Allocations: 126)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.5ms | Allocations: 105)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 244)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 185)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 8383)
+Completed 200 OK in 21ms (Views: 19.1ms | Allocations: 9469)
+
+
+Started GET "/" for ::1 at 2021-04-09 22:18:55 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.5ms | Allocations: 734)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 96)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 72)
+  Rendered layout layouts/application.html.erb (Duration: 21.9ms | Allocations: 7922)
+Completed 200 OK in 25ms (Views: 22.9ms | Allocations: 8428)
+
+
+Started GET "/" for ::1 at 2021-04-09 22:19:20 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 6.4ms | Allocations: 734)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.4ms | Allocations: 105)
+  Rendered layouts/_header.html.erb (Duration: 1.0ms | Allocations: 252)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 185)
+  Rendered layout layouts/application.html.erb (Duration: 24.9ms | Allocations: 8894)
+Completed 200 OK in 34ms (Views: 30.6ms | Allocations: 9983)
+
+
+Started GET "/static_pages/help" for ::1 at 2021-04-09 22:19:22 +0300
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.8ms | Allocations: 146)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 72)
+  Rendered layout layouts/application.html.erb (Duration: 24.6ms | Allocations: 7575)
+Completed 200 OK in 28ms (Views: 25.3ms | Allocations: 8590)
+
+
+Started GET "/static_pages/about" for ::1 at 2021-04-09 22:19:27 +0300
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.6ms | Allocations: 126)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 72)
+  Rendered layout layouts/application.html.erb (Duration: 23.1ms | Allocations: 7438)
+Completed 200 OK in 28ms (Views: 26.5ms | Allocations: 8598)
+
+
+Started GET "/" for ::1 at 2021-04-09 22:19:31 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.7ms | Allocations: 615)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 100)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 70)
+  Rendered layout layouts/application.html.erb (Duration: 21.1ms | Allocations: 7802)
+Completed 200 OK in 23ms (Views: 21.8ms | Allocations: 8179)
+
+
+Started GET "/" for ::1 at 2021-04-09 22:19:32 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.9ms | Allocations: 615)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 100)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 70)
+  Rendered layout layouts/application.html.erb (Duration: 25.7ms | Allocations: 7802)
+Completed 200 OK in 28ms (Views: 26.6ms | Allocations: 8178)
+
+
+Started GET "/static_pages/about" for ::1 at 2021-04-09 22:19:37 +0300
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.1ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 100)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 70)
+  Rendered layout layouts/application.html.erb (Duration: 21.3ms | Allocations: 7339)
+Completed 200 OK in 23ms (Views: 22.0ms | Allocations: 7715)
+
+
+Started GET "/static_pages/about" for ::1 at 2021-04-09 22:19:38 +0300
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.4ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 100)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 70)
+  Rendered layout layouts/application.html.erb (Duration: 24.2ms | Allocations: 7339)
+Completed 200 OK in 27ms (Views: 25.9ms | Allocations: 7715)
+
+
+Started GET "/static_pages/about" for ::1 at 2021-04-09 22:19:58 +0300
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.6ms | Allocations: 126)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.6ms | Allocations: 105)
+  Rendered layouts/_header.html.erb (Duration: 1.1ms | Allocations: 255)
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 185)
+  Rendered layout layouts/application.html.erb (Duration: 31.1ms | Allocations: 8395)
+Completed 200 OK in 34ms (Views: 32.7ms | Allocations: 9488)
+
+
+Started GET "/" for ::1 at 2021-04-09 22:20:00 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.8ms | Allocations: 733)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 111)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 72)
+  Rendered layout layouts/application.html.erb (Duration: 28.3ms | Allocations: 7936)
+Completed 200 OK in 31ms (Views: 29.4ms | Allocations: 8440)
+
+
+Started GET "/" for ::1 at 2021-04-09 22:22:19 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 619)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 113)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 74)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 7805)
+Completed 200 OK in 18ms (Views: 16.8ms | Allocations: 8297)
+
+
+Started GET "/" for ::1 at 2021-04-09 22:25:11 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.6ms | Allocations: 751)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 105)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 255)
+  Rendered layouts/_footer.html.erb (Duration: 1.2ms | Allocations: 185)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 8908)
+Completed 200 OK in 22ms (Views: 20.9ms | Allocations: 9999)
+
+
+Started GET "/" for ::1 at 2021-04-09 22:25:16 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.1ms | Allocations: 618)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 70)
+  Rendered layout layouts/application.html.erb (Duration: 19.6ms | Allocations: 7816)
+Completed 200 OK in 21ms (Views: 20.4ms | Allocations: 8193)
+
+
+Started GET "/static_pages/help" for ::1 at 2021-04-09 22:25:18 +0300
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 1.1ms | Allocations: 125)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 112)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 72)
+  Rendered layout layouts/application.html.erb (Duration: 31.0ms | Allocations: 8093)
+Completed 200 OK in 33ms (Views: 31.8ms | Allocations: 8596)
+
+
+Started GET "/static_pages/about" for ::1 at 2021-04-09 22:25:29 +0300
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.6ms | Allocations: 126)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 112)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 72)
+  Rendered layout layouts/application.html.erb (Duration: 24.8ms | Allocations: 7444)
+Completed 200 OK in 27ms (Views: 26.0ms | Allocations: 7948)
+
+
+Started GET "/static_pages/contacts" for ::1 at 2021-04-09 22:25:31 +0300
+Processing by StaticPagesController#contacts as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contacts.html.erb within layouts/application
+  Rendered static_pages/contacts.html.erb within layouts/application (Duration: 0.7ms | Allocations: 125)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 112)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 72)
+  Rendered layout layouts/application.html.erb (Duration: 23.6ms | Allocations: 8100)
+Completed 200 OK in 26ms (Views: 24.3ms | Allocations: 8604)
+
+
+Started GET "/" for ::1 at 2021-04-09 22:27:49 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 619)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 15.3ms | Allocations: 4157)
+  Rendered layout layouts/application.html.erb (Duration: 28.4ms | Allocations: 11718)
+Completed 500 Internal Server Error in 31ms (Allocations: 12183)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `static_pages_help_path' for #<ActionView::Base:0x0000000000e740>
+Did you mean?  static_pages_about_path):
+    4:     <nav>
+    5:       <ul class="nav navbar-nav navbar-right d-flex flex-row h4">
+    6:         <li><%= link_to "Home", root_path %></li>
+    7:         <li><%= link_to "Help",  static_pages_help_path %></li>
+    8:         <li><%= link_to "Log in", '#' %></li>
+    9:       </ul>
+   10:     </nav>
+  
+app/views/layouts/_header.html.erb:7
+app/views/layouts/application.html.erb:15
+Started GET "/static_pages/contacts" for ::1 at 2021-04-09 22:27:58 +0300
+Processing by StaticPagesController#contacts as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contacts.html.erb within layouts/application
+  Rendered static_pages/contacts.html.erb within layouts/application (Duration: 0.1ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 18.3ms | Allocations: 4150)
+  Rendered layout layouts/application.html.erb (Duration: 33.2ms | Allocations: 11263)
+Completed 500 Internal Server Error in 34ms (Allocations: 11609)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `static_pages_help_path' for #<ActionView::Base:0x0000000000ebf0>
+Did you mean?  static_pages_about_path):
+    4:     <nav>
+    5:       <ul class="nav navbar-nav navbar-right d-flex flex-row h4">
+    6:         <li><%= link_to "Home", root_path %></li>
+    7:         <li><%= link_to "Help",  static_pages_help_path %></li>
+    8:         <li><%= link_to "Log in", '#' %></li>
+    9:       </ul>
+   10:     </nav>
+  
+app/views/layouts/_header.html.erb:7
+app/views/layouts/application.html.erb:15
+Started GET "/static_pages/help" for ::1 at 2021-04-09 22:29:32 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/static_pages/help"):
+  
+Started GET "/static_pages/help" for ::1 at 2021-04-09 22:30:08 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/static_pages/help"):
+  
+Started GET "/static_pages/help" for ::1 at 2021-04-09 22:30:55 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/static_pages/help"):
+  
+Started GET "/" for ::1 at 2021-04-09 22:31:06 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.9ms | Allocations: 749)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 105)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 250)
+  Rendered layouts/_footer.html.erb (Duration: 21.0ms | Allocations: 4128)
+  Rendered layout layouts/application.html.erb (Duration: 41.2ms | Allocations: 12846)
+Completed 500 Internal Server Error in 46ms (Allocations: 13915)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `static_pages_about_path' for #<ActionView::Base:0x000000000108b0>):
+     5:   </small>
+     6:   <nav>
+     7:     <ul>
+     8:       <li><%= link_to "About", static_pages_about_path %></li>
+     9:       <li><%= link_to "Contact", static_pages_contacts_path %></li>
+    10:       <li><a href="http://news.railstutorial.org/">News</a></li>
+    11:     </ul>
+  
+app/views/layouts/_footer.html.erb:8
+app/views/layouts/application.html.erb:18
+Started GET "/" for ::1 at 2021-04-09 22:32:28 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.0ms | Allocations: 749)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.5ms | Allocations: 105)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 248)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 20.8ms | Allocations: 8884)
+Completed 200 OK in 26ms (Views: 23.1ms | Allocations: 9975)
+
+
+Started GET "/" for ::1 at 2021-04-09 22:32:30 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.5ms | Allocations: 618)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 7794)
+Completed 200 OK in 22ms (Views: 21.0ms | Allocations: 8171)
+
+
+Started GET "/" for ::1 at 2021-04-09 22:32:32 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.9ms | Allocations: 618)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 98)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 23.1ms | Allocations: 7787)
+Completed 200 OK in 25ms (Views: 23.9ms | Allocations: 8163)
+
+
+Started GET "/about" for ::1 at 2021-04-09 22:32:35 +0300
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 129)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 103)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 25.0ms | Allocations: 7984)
+Completed 200 OK in 27ms (Views: 25.7ms | Allocations: 8490)
+
+
+Started GET "/contacts" for ::1 at 2021-04-09 22:32:37 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/contacts"):
+  
+Started GET "/contacts" for ::1 at 2021-04-09 22:33:32 +0300
+Processing by StaticPagesController#contacts as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contacts.html.erb within layouts/application
+  Rendered static_pages/contacts.html.erb within layouts/application (Duration: 0.4ms | Allocations: 124)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 104)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 7396)
+Completed 200 OK in 16ms (Views: 15.1ms | Allocations: 8015)
+
+
+Started GET "/about" for ::1 at 2021-04-09 22:33:35 +0300
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 98)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 21.2ms | Allocations: 7321)
+Completed 200 OK in 23ms (Views: 22.2ms | Allocations: 7698)
+
+
+Started GET "/contacts" for ::1 at 2021-04-09 22:33:38 +0300
+Processing by StaticPagesController#contacts as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contacts.html.erb within layouts/application
+  Rendered static_pages/contacts.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 98)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 7321)
+Completed 200 OK in 21ms (Views: 20.0ms | Allocations: 7697)
+
+
+Started GET "/" for ::1 at 2021-04-09 22:33:39 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.2ms | Allocations: 620)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 98)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 21.9ms | Allocations: 8431)
+Completed 200 OK in 25ms (Views: 23.6ms | Allocations: 8810)
+
+
+Started GET "/help" for ::1 at 2021-04-09 22:33:40 +0300
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 128)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 103)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 7512)
+Completed 200 OK in 23ms (Views: 20.9ms | Allocations: 8581)
+
+
+Started GET "/" for ::1 at 2021-04-09 22:33:42 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.3ms | Allocations: 620)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 2.5ms | Allocations: 98)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 26.1ms | Allocations: 7789)
+Completed 200 OK in 28ms (Views: 27.1ms | Allocations: 8166)
+
+
+Started GET "/" for ::1 at 2021-04-09 22:36:06 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.5ms | Allocations: 747)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.5ms | Allocations: 105)
+  Rendered layouts/_header.html.erb (Duration: 1.0ms | Allocations: 248)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 178)
+  Rendered layout layouts/application.html.erb (Duration: 24.0ms | Allocations: 8890)
+Completed 200 OK in 29ms (Views: 26.9ms | Allocations: 9981)
+
+
+Started GET "/about" for ::1 at 2021-04-09 22:36:10 +0300
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 126)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 103)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 63)
+  Rendered layout layouts/application.html.erb (Duration: 20.2ms | Allocations: 7426)
+Completed 200 OK in 22ms (Views: 20.8ms | Allocations: 7930)
+
+
+Started GET "/contacts" for ::1 at 2021-04-09 22:36:28 +0300
+Processing by StaticPagesController#contacts as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contacts.html.erb within layouts/application
+  Rendered static_pages/contacts.html.erb within layouts/application (Duration: 0.6ms | Allocations: 124)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.9ms | Allocations: 105)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 248)
+  Rendered layouts/_footer.html.erb (Duration: 2.0ms | Allocations: 185)
+  Rendered layout layouts/application.html.erb (Duration: 31.3ms | Allocations: 9053)
+Completed 200 OK in 35ms (Views: 33.5ms | Allocations: 10143)
+
+
+Started GET "/contacts" for ::1 at 2021-04-09 22:36:53 +0300
+Processing by StaticPagesController#contacts as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contacts.html.erb within layouts/application
+  Rendered static_pages/contacts.html.erb within layouts/application (Duration: 0.9ms | Allocations: 123)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.7ms | Allocations: 105)
+  Rendered layouts/_header.html.erb (Duration: 1.1ms | Allocations: 255)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 185)
+  Rendered layout layouts/application.html.erb (Duration: 21.4ms | Allocations: 8392)
+Completed 200 OK in 25ms (Views: 23.5ms | Allocations: 9479)
+
+
+Started GET "/help" for ::1 at 2021-04-09 22:36:55 +0300
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.6ms | Allocations: 125)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 112)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 72)
+  Rendered layout layouts/application.html.erb (Duration: 21.2ms | Allocations: 7443)
+Completed 200 OK in 23ms (Views: 22.1ms | Allocations: 7946)
+
+
+Started GET "/" for ::1 at 2021-04-09 22:36:56 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.5ms | Allocations: 875)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 111)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 72)
+  Rendered layout layouts/application.html.erb (Duration: 30.7ms | Allocations: 8081)
+Completed 200 OK in 34ms (Views: 31.4ms | Allocations: 9077)
+
+
+Started GET "/about" for ::1 at 2021-04-09 22:36:59 +0300
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.9ms | Allocations: 126)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 112)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 72)
+  Rendered layout layouts/application.html.erb (Duration: 27.2ms | Allocations: 8091)
+Completed 200 OK in 30ms (Views: 28.2ms | Allocations: 8594)
+
+
+Started GET "/" for ::1 at 2021-04-09 23:35:13 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2269.9ms | Allocations: 627)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 34.8ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 100.0ms | Allocations: 112)
+  Rendered layouts/_footer.html.erb (Duration: 21.3ms | Allocations: 72)
+  Rendered layout layouts/application.html.erb (Duration: 4757.1ms | Allocations: 7815)
+Completed 200 OK in 7281ms (Views: 5595.9ms | Allocations: 8315)
+
+
+Started GET "/" for ::1 at 2021-04-09 23:53:01 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 188.5ms | Allocations: 618)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 70)
+  Rendered layout layouts/application.html.erb (Duration: 649.4ms | Allocations: 7812)
+Completed 200 OK in 679ms (Views: 650.0ms | Allocations: 8188)
+
+
+Started GET "/" for ::1 at 2021-04-09 23:53:02 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 78.9ms | Allocations: 618)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.9ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 70)
+  Rendered layout layouts/application.html.erb (Duration: 212.6ms | Allocations: 7811)
+Completed 200 OK in 234ms (Views: 219.5ms | Allocations: 8187)
+
+
+Started GET "/help" for ::1 at 2021-04-09 23:53:03 +0300
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.6ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 1.1ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 1.0ms | Allocations: 70)
+  Rendered layout layouts/application.html.erb (Duration: 487.1ms | Allocations: 7346)
+Completed 200 OK in 579ms (Views: 531.9ms | Allocations: 7722)
+
+
+Started GET "/about" for ::1 at 2021-04-09 23:53:06 +0300
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 13.7ms | Allocations: 70)
+  Rendered layout layouts/application.html.erb (Duration: 330.0ms | Allocations: 7357)
+Completed 200 OK in 372ms (Views: 331.3ms | Allocations: 7733)
+
+
+Started GET "/contacts" for ::1 at 2021-04-09 23:53:07 +0300
+Processing by StaticPagesController#contacts as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contacts.html.erb within layouts/application
+  Rendered static_pages/contacts.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.5ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 11.4ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 14.0ms | Allocations: 70)
+  Rendered layout layouts/application.html.erb (Duration: 543.0ms | Allocations: 7357)
+Completed 200 OK in 547ms (Views: 543.9ms | Allocations: 7733)
+
+
+Started GET "/about" for ::1 at 2021-04-09 23:53:16 +0300
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 23.4ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 70)
+  Rendered layout layouts/application.html.erb (Duration: 272.9ms | Allocations: 9329)
+Completed 200 OK in 275ms (Views: 274.1ms | Allocations: 9705)
+
+
