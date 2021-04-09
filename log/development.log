@@ -888,3 +888,177 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 359ms (Views: 357.9ms | Allocations: 61670)
 
 
+Started GET "/" for ::1 at 2021-04-09 20:25:01 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 358.9ms | Allocations: 744)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.5ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 1515.5ms | Allocations: 8353)
+Completed 200 OK in 1684ms (Views: 1636.3ms | Allocations: 9444)
+
+
+Started GET "/" for ::1 at 2021-04-09 20:26:47 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 732)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.5ms | Allocations: 105)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 17.4ms | Allocations: 8513)
+Completed 200 OK in 22ms (Views: 19.9ms | Allocations: 9601)
+
+
+Started GET "/" for ::1 at 2021-04-09 21:43:29 +0300
+  [1m[35m (95.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 13347.4ms | Allocations: 24212)
+Started GET "/" for ::1 at 2021-04-09 21:43:47 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.5ms | Allocations: 613)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 13.3ms | Allocations: 128)
+  Rendered layouts/_shim.html.erb (Duration: 13.3ms | Allocations: 164)
+  Rendered layouts/_header.html.erb (Duration: 12.7ms | Allocations: 267)
+  Rendered layouts/_header.html.erb (Duration: 13.1ms | Allocations: 326)
+  Rendered layout layouts/application.html.erb (Duration: 14385.8ms | Allocations: 42719)
+  Rendered layout layouts/application.html.erb (Duration: 1008.2ms | Allocations: 16257)
+Completed 200 OK in 14781ms (Views: 14570.6ms | ActiveRecord: 0.0ms | Allocations: 45345)
+
+
+Completed 200 OK in 1011ms (Views: 1009.8ms | ActiveRecord: 0.0ms | Allocations: 16724)
+
+
+Started GET "/" for ::1 at 2021-04-09 21:45:30 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 288.6ms | Allocations: 618)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 77)
+  Rendered layout layouts/application.html.erb (Duration: 1736.6ms | Allocations: 7782)
+Completed 200 OK in 1893ms (Views: 1737.2ms | ActiveRecord: 0.0ms | Allocations: 8163)
+
+
+Started GET "/" for ::1 at 2021-04-09 21:47:36 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 34.9ms | Allocations: 734)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 9.2ms | Allocations: 105)
+  Rendered layouts/_header.html.erb (Duration: 12.9ms | Allocations: 227)
+  Rendered layout layouts/application.html.erb (Duration: 200.5ms | Allocations: 8487)
+Completed 200 OK in 275ms (Views: 274.2ms | ActiveRecord: 0.0ms | Allocations: 9585)
+
+
+Started GET "/" for ::1 at 2021-04-09 21:49:04 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.6ms | Allocations: 731)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 105)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 228)
+  Rendered layout layouts/application.html.erb (Duration: 19.0ms | Allocations: 8476)
+Completed 200 OK in 23ms (Views: 21.1ms | ActiveRecord: 0.0ms | Allocations: 9564)
+
+
+Started GET "/" for ::1 at 2021-04-09 21:50:46 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.5ms | Allocations: 731)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 106)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 227)
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 8556)
+Completed 200 OK in 22ms (Views: 20.4ms | Allocations: 9642)
+
+
+Started GET "/" for ::1 at 2021-04-09 21:51:30 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.5ms | Allocations: 731)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 105)
+  Rendered layouts/_header.html.erb (Duration: 1.0ms | Allocations: 227)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 175)
+  Rendered layout layouts/application.html.erb (Duration: 20.9ms | Allocations: 8858)
+Completed 200 OK in 25ms (Views: 23.3ms | Allocations: 9950)
+
+
+Started GET "/" for ::1 at 2021-04-09 21:52:28 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 731)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 105)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 227)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 8847)
+Completed 200 OK in 25ms (Views: 22.7ms | Allocations: 9933)
+
+
+Started GET "/" for ::1 at 2021-04-09 21:53:41 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.6ms | Allocations: 613)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 77)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 3290.5ms | Allocations: 61465)
+Completed 200 OK in 3292ms (Views: 3291.0ms | Allocations: 61843)
+
+
+Started GET "/" for ::1 at 2021-04-09 21:54:28 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.5ms | Allocations: 616)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 77)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 506.7ms | Allocations: 61166)
+Completed 200 OK in 508ms (Views: 507.4ms | Allocations: 61539)
+
+
+Started GET "/" for ::1 at 2021-04-09 21:55:46 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.0ms | Allocations: 615)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 77)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 532.2ms | Allocations: 61690)
+Completed 200 OK in 534ms (Views: 533.1ms | Allocations: 62064)
+
+
+Started GET "/" for ::1 at 2021-04-09 21:57:31 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.9ms | Allocations: 616)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 77)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 586.7ms | Allocations: 62561)
+Completed 200 OK in 588ms (Views: 587.4ms | Allocations: 62935)
+
+
