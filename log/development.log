@@ -1998,3 +1998,16 @@ Processing by UsersController#new as HTML
 Completed 200 OK in 30ms (Views: 28.3ms | ActiveRecord: 0.0ms | Allocations: 9534)
 
 
+Started GET "/contacts" for ::1 at 2021-04-10 01:10:42 +0300
+Processing by StaticPagesController#contacts as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contacts.html.erb within layouts/application
+  Rendered static_pages/contacts.html.erb within layouts/application (Duration: 0.7ms | Allocations: 127)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 113)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 72)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 7485)
+Completed 200 OK in 17ms (Views: 15.6ms | Allocations: 8367)
+
+
